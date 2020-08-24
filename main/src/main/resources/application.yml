@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: main
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 9528
+  servlet:
+    context-path: /main/api/v1
+  tomcat:
+    max-threads: 1000
+    max-connections: 20000
